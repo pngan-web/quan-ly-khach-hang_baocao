@@ -907,10 +907,9 @@ Chạy ô dưới và nhập số để chọn chức năng; nhập `0` để th
 ql_demo = nap_he_thong(sinh_du_lieu(1000))   # 1.000 khách hàng mô phỏng
 chay_menu(ql_demo)
 
-# Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
-# import streamlit as st
-# import pandas as pd
-# 
-# st.title("Hệ Thống Quản Lý Khách Hàng")
-# st.write("Chào mừng bạn đến với ứng dụng quản lý khách hàng!")
+%%writefile app.py
+import streamlit as st
+import pandas as pd
+ 
+st.title("Hệ Thống Quản Lý Khách Hàng")
+st.write("Chào mừng bạn đến với ứng dụng quản lý khách hàng!")
